@@ -27,6 +27,17 @@ const Meta = ({
     <meta property="og:site_name" content={ogsitename} />
     <meta property="og:url" content={ogurl} />
     <link rel="canonical" href={canonical} />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700" /> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/aos.css"></link>
   </Head>
 )
 export default Meta
