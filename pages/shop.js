@@ -56,10 +56,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Tank Top</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Tank Top</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect t-shirt</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -68,10 +76,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Corater</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Corater</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -80,10 +96,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Polo Shirt</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Polo Shirt</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -93,10 +117,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_3.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_3.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">T-Shirt Mockup</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>T-Shirt Mockup</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -105,10 +137,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Corater</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Corater</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -117,10 +157,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Tank Top</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Tank Top</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect t-shirt</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -129,10 +177,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Corater</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Corater</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -141,10 +197,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Polo Shirt</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Polo Shirt</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -154,10 +218,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_3.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_3.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">T-Shirt Mockup</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>T-Shirt Mockup</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -166,10 +238,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/shoe_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Corater</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Corater</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -178,10 +258,18 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_1.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Tank Top</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Tank Top</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect t-shirt</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
@@ -191,16 +279,23 @@ const Shop = () => {
                 <div className="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
                   <div className="block-4 text-center border">
                     <figure className="block-4-image">
-                      <a href="shop-single.html"><img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" /></a>
+                      <Link href="/shop-single">
+                        <a>
+                          <img src="images/cloth_2.jpg" alt="Image placeholder" className="img-fluid" />
+                        </a>
+                      </Link>
                     </figure>
                     <div className="block-4-text p-4">
-                      <h3><a href="shop-single.html">Polo Shirt</a></h3>
+                      <h3>
+                        <Link href="/shop-single">
+                          <a>Polo Shirt</a>
+                        </Link>
+                      </h3>
                       <p className="mb-0">Finding perfect products</p>
                       <p className="text-primary font-weight-bold">$50</p>
                     </div>
                   </div>
                 </div>
-
 
               </div>
               <div className="row" data-aos="fade-up">
