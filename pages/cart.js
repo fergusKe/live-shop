@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Layout from '@components/Layout/Layout'
 
 const Cart = () => {
@@ -132,7 +133,11 @@ const Cart = () => {
 
                   <div className="row">
                     <div className="col-md-12">
-                      <button className="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                      <Link href="/checkout">
+                        <a className="btn btn-primary btn-lg py-3 btn-block">
+                          Proceed To Checkout
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
