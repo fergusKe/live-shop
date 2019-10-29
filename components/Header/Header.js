@@ -30,10 +30,12 @@ const Header = () => {
                   <li><a href="#"><span className="icon icon-person"></span></a></li>
                   <li><a href="#"><span className="icon icon-heart-o"></span></a></li>
                   <li>
-                    <a href="cart.html" className="site-cart">
-                      <span className="icon icon-shopping_cart"></span>
-                      <span className="count">2</span>
-                    </a>
+                    <Link href="/cart">
+                      <a className="site-cart">
+                        <span className="icon icon-shopping_cart"></span>
+                        <span className="count">2</span>
+                      </a>
+                    </Link>
                   </li> 
                   <li className="d-inline-block d-md-none ml-md-0"><a href="#" className="site-menu-toggle js-menu-toggle"><span className="icon-menu"></span></a></li>
                 </ul>
