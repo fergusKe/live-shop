@@ -46,42 +46,26 @@ const Header = () => {
       <nav className="site-navigation text-right text-md-center" role="navigation">
         <div className="container">
           <ul className="site-menu js-clone-nav d-none d-md-block">
-            <li className="has-children active">
+            <li>
               <Link href="/">
                 <a>Home</a>
               </Link>
-              <ul className="dropdown">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
-                <li className="has-children">
-                  <a href="#">Sub Menu</a>
-                  <ul className="dropdown">
-                    <li><a href="#">Menu One</a></li>
-                    <li><a href="#">Menu Two</a></li>
-                    <li><a href="#">Menu Three</a></li>
-                  </ul>
-                </li>
-              </ul>
             </li>
-            <li className="has-children">
+            <li>
               <Link href="/about">
                 <a>About</a>
               </Link>
-              <ul className="dropdown">
-                <li><a href="#">Menu One</a></li>
-                <li><a href="#">Menu Two</a></li>
-                <li><a href="#">Menu Three</a></li>
-              </ul>
             </li>
             <li>
               <Link href="/shop">
                 <a>Shop</a>
               </Link>
             </li>
-            <li><a href="#">Catalogue</a></li>
-            <li><a href="#">New Arrivals</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
